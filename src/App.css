@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+.topbar{
+  height: 50px;
+  width: 100%;
+  background-color: black;
+}
+button{
+  height: 50px;
+  width: 150px;
+  font-size: large;
+  color: white;
+  background-color: teal;
+  margin: 10px;
+}
+.users{
+  width:400px;
+  height:200px;
+  border:1px solid blue;
+  display:inline-block;
+  margin:3px;
+  text-align: left;
+  padding:2px;
+}
+.todos{
+  width:80%;
+  height:130px;
+  border:1px solid blue;
+  display:inline-block;
+  margin:3px;
+  text-align: left;
+  padding:5px;
+}
+.error{
+  border:1px solid blue;
+  background-color: gray;
+  color:white;
+  width:100%;
+  text-align: center;
+}
